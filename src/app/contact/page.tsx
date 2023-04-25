@@ -29,7 +29,6 @@ export default function ContactPage() {
           </a>
         ))}
       </ul>
-      <h2 className='text-3xl font-bold my-8'>Contact me on LinkedIn Or Send me an email</h2>
     </section>
   );
 }

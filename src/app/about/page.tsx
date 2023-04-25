@@ -14,7 +14,7 @@ export default function AboutPage() {
       <section className='bg-gray-100 shadow-lg p-8 m-8 text-center'>
         <h2 className={TITLE_CLASS}>Who Am I?</h2>
         <p>
-          만들고 싶으면 개발해요 <br />
+          개발하며 성장합니다 <br />
         </p>
         <h2 className={TITLE_CLASS}>Career</h2>
         <p>
@@ -28,16 +28,15 @@ export default function AboutPage() {
         <p>JavaScript, TypeScript, C#, C++, Kotlin, Python, Swift</p>
         <p><strong>Web Frontend Toolset</strong></p>
         <p>React.js, Next.js, jQuery</p>
-        <p><strong>Backend Frameworks</strong></p>
+        <p><strong>Backend Toolset</strong></p>
         <p>Node.js (Express), Spring Framework (Kotlin), WinForms (C#), Unity (C#), MFC (C++)</p>
         <p><strong>Basic Knowledge</strong></p>
         <p>
           Mobile Development: Android (Kotlin), iOS (SwiftUI), Flutter<br />
           Databases: MySQL, PostgreSQL, MongoDB, DynamoDB<br />
           Messaging Queues: SQS, RabbitMQ<br />
-          Cloud & DevOps: AWS (SQS, AppConfig, Parameter Store, etc.), GCP, Firebase, Docker, Kubernetes<br />
-          Version Control: Git, Bitbucket<br />
-          IDEs: Visual Studio Code, IntelliJ
+          DevOps: AWS, GCP, Firebase, Docker, Kubernetes<br />
+          Version Control: Git, Bitbucket
         </p>
       </section>
     </>
