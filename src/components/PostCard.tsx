@@ -8,7 +8,7 @@ export default function PostCard({
 }: Props) {
   return (
     <Link href={`/posts/${path}`}>
-      <article className='rounded-md overflow-hidden shadow-md hover:shadow-xl'>
+      <article className='rounded-md shadow-md hover:shadow-xl'>
         <div className='flex flex-col items-center p-4'>
           <time className='self-end text-gray-700'>{date.toString()}</time>
           <h3 className='text-lg font-bold'>{title}</h3>
