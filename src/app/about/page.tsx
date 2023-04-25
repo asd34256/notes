@@ -35,7 +35,7 @@ export default function AboutPage() {
           Mobile Development: Android (Kotlin), iOS (SwiftUI), Flutter<br />
           Databases: MySQL, PostgreSQL, MongoDB, DynamoDB<br />
           Messaging Queues: SQS, RabbitMQ<br />
-          DevOps: AWS, GCP, Firebase, Docker, Kubernetes<br />
+          DevOps: CircleCI, AWS, GCP, Firebase, Docker, Kubernetes<br />
           Version Control: Git, Bitbucket
         </p>
       </section>
