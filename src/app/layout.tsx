@@ -7,8 +7,8 @@ const sans = Open_Sans({ subsets: ['latin'] });
 
 export const metadata = {
   title: {
-    default: 'Dean의 블로그',
-    template: 'Dean의 블로그 | %s',
+    default: 'deanpark.name',
+    template: 'deanpark.name | %s',
   },
   description: '풀스택 개발자 Dean의 블로그',
   icons: {
