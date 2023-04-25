@@ -5,4 +5,9 @@ module.exports = {
     extend: {},
   },
   plugins: [require('@tailwindcss/typography')],
+  variants: {
+    extend: {
+      padding: ['responsive'],
+    },
+  },
 };

@@ -7,7 +7,7 @@ import { materialDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 export default function MarkdownViewer({ content }: { content: string }) {
   return (
     <ReactMarkdown
-      className='prose max-w-none m-8'
+      className='prose max-w-none m-2 sm:m-4'
       remarkPlugins={[remarkGfm]}
       components={{
         code({ node, inline, className, children, ...props }) {
