@@ -24,7 +24,7 @@ export default async function PostPage({ params: { slug } }: Props) {
   const { title, path, next, prev } = post;
 
   return (
-    <article className='rounded-2xl overflow-hidden bg-gray-100 shadow-lg m-4'>
+    <article className='rounded-2xl overflow-y-auto bg-gray-100 shadow-lg m-4'>
       <PostContent post={post} />
     </article>
   );
